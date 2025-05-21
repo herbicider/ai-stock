@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: Default values
-set TICKER=AAPL,MSFT,NVDA
+set TICKER=AAPL,MSFT,NVDA,GOOGL,TSLA
 set USE_OLLAMA=
 set START_DATE=
 set END_DATE=
@@ -19,7 +19,7 @@ echo.
 echo Usage: run.bat [OPTIONS] COMMAND
 echo.
 echo Options:
-echo   --ticker SYMBOLS    Comma-separated list of ticker symbols (e.g., AAPL,MSFT,NVDA)
+echo   --ticker SYMBOLS    Comma-separated list of ticker symbols (e.g., AAPL,MSFT,NVDA,GOOGL,TSLA)
 echo   --start-date DATE   Start date in YYYY-MM-DD format
 echo   --end-date DATE     End date in YYYY-MM-DD format
 echo   --initial-cash AMT  Initial cash position (default: 100000.0)
